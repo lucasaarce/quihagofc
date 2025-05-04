@@ -1,0 +1,356 @@
+@font-face {
+	font-family: "Geo";
+	src: url("../assets/fonts/Geo-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SpecialGothic";
+	src: url("../assets/fonts/SpecialGothicExpandedOne-Regular.ttf")
+		format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "LeckerliOne";
+	src: url("../assets/fonts/LeckerliOne-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Bebas Neue";
+	src: url("../assets/fonts/BebasNeue-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	text-align: center;
+	background-color: #000 !important; /* negro base */
+	background-image:
+		radial-gradient(circle at center, #1a1a1a 0%, transparent 50%),
+		radial-gradient(circle at top left, #000 0%, #1a1a1a 40%),
+		radial-gradient(circle at top right, #000 0%, #1a1a1a 40%),
+		radial-gradient(circle at bottom left, #000 0%, #1a1a1a 40%),
+		radial-gradient(circle at bottom right, #000 0%, #1a1a1a 40%);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+/* HEADER */
+.fantasy-header {
+	margin-top: 100px;
+	width: 100%;
+	height: 400px;
+	font-size: 60px;
+	background-image: url(../assets/images/otros/equipo-partido.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.85);
+	background-blend-mode: multiply;
+	color: #fff;
+	font-family: "Bebas Neue";
+}
+
+.fantasy-header__title {
+	margin: 0;
+	padding-top: 100px;
+	letter-spacing: 8px;
+}
+
+.fantasy-header__subtitle {
+	font-family: "Bebas Neue";
+	margin-bottom: 50px;
+	font-size: 40px;
+	color: #cdcdcd;
+	letter-spacing: 10px;
+}
+
+/* CARD + TABLE */
+.card {
+	margin: auto;
+	background-color: #ddd;
+	width: 700px;
+	height: 100%;
+	margin-bottom: 100px;
+}
+
+.card__table {
+	font-family: "Geo", sans-serif;
+	font-size: 50px;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.95), rgba(34, 0, 51, 0.9));
+	border: 1px solid #ff00ff;
+	box-shadow: 0 0 15px #ff00ff80;
+	border-collapse: collapse;
+}
+
+/* Celdas de datos */
+.card__table td {
+	color: #dcdcdc;
+	border: none;
+	padding: 8px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+/* Encabezado de la tabla */
+.card__table th {
+	font-family: "SpecialGothic";
+	font-size: 30px;
+	border: none;
+	padding: 8px;
+	/* background-color: #000;
+	border-bottom: 1px solid #ddd; */
+	background: linear-gradient(to bottom, #1e0033 0%, #350045 100%);
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+	white-space: nowrap;
+}
+
+
+.card__table td.jugador {
+	text-align: start;
+}
+
+.card__table td.primero {
+	font-family: "LeckerliOne";
+	background: linear-gradient(
+		135deg,
+		#fff9c4 0%,
+		#ffd700 20%,
+		#fff8b3 40%,
+		#ffcc00 60%,
+		#fff176 80%,
+		#ffd700 100%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+	text-shadow: 0 0 5px rgba(255, 223, 0, 0.6), 0 0 10px rgba(255, 215, 0, 0.5),
+		0 0 15px rgba(255, 200, 0, 0.3);
+	animation: brilloDorado 2s infinite linear;
+	background-size: 200% auto;
+}
+
+@keyframes brilloDorado {
+	0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
+
+.card__table td.segundo {
+	font-family: "LeckerliOne";
+	background: linear-gradient(
+		135deg,
+		#f5f5f5 0%,
+		#dcdcdc 20%,
+		#c0c0c0 40%,
+		#b0b0b0 60%,
+		#e0e0e0 80%,
+		#c0c0c0 100%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+	text-shadow: 0 0 5px rgba(192, 192, 192, 0.4),
+		0 0 10px rgba(180, 180, 180, 0.3), 0 0 15px rgba(170, 170, 170, 0.2);
+	animation: brilloPlateado 2s infinite linear;
+	background-size: 200% auto;
+}
+
+@keyframes brilloPlateado {
+	0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
+
+.card__table td.tercero {
+	font-family: "LeckerliOne";
+	background: linear-gradient(
+		135deg,
+		#ffddb0 0%,
+		#cd7f32 25%,
+		#d1904f 50%,
+		#a05a2c 75%,
+		#ffddb0 100%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+	text-shadow: 0 0 5px rgba(205, 127, 50, 0.4), 0 0 10px rgba(180, 100, 30, 0.3),
+		0 0 15px rgba(160, 80, 20, 0.2);
+	animation: brilloBronce 2s infinite linear;
+	background-size: 200% auto;
+}
+
+@keyframes brilloBronce {
+	0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
+
+.card__table td.ranking {
+	font-family: "SpecialGothic";
+	font-size: 30px;
+}
+
+@keyframes spin-with-pause {
+    0%   { transform: rotate(0deg); }
+    40%  { transform: rotate(720deg); } /* 3 vueltas rápidas */
+    60%  { transform: rotate(720deg); } /* Pausa en ese punto */
+    100% { transform: rotate(1080deg); } /* 3 vueltas más */
+}
+
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.loader img {
+    width: 80px;
+    height: 80px;
+    animation: spin-with-pause 3s cubic-bezier(0.6, 0.05, 0.2, 0.9) infinite;
+}
+
+
+
+@media (max-width: 1024px) {
+    .fantasy-header {
+		margin-top: 75px;
+        height: 300px;
+        font-size: 40px;
+    }
+
+    .fantasy-header__title {
+        padding-top: 80px;
+        letter-spacing: 5px;
+    }
+
+    .fantasy-header__subtitle {
+        font-size: 30px;
+        margin-bottom: 30px;
+        letter-spacing: 6px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card__table {
+        font-size: 1.5rem;
+    }
+
+    .card__table th {
+        font-size: 1.2rem;
+    }
+
+    .card__table td.ranking {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 748px) {
+    .fantasy-header {
+        height: 200px;
+        font-size: 35px;
+    }
+
+    .fantasy-header__title {
+        padding-top: 60px;
+        letter-spacing: 3px;
+    }
+
+    .fantasy-header__subtitle {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .card {
+        width: 95%;
+        margin-bottom: 50px;
+    }
+
+    .card__table {
+        font-size: 1rem;
+    }
+
+    .card__table th,
+    .card__table td.ranking {
+        font-size: 1rem;
+    }
+
+    .card__table td {
+        padding: 4px;
+    }
+
+    .loader img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    .fantasy-header {
+		margin-top: 75px;
+        height: 100px;
+        font-size: 20px;
+    }
+
+    .fantasy-header__title {
+        padding-top: 25px;
+        letter-spacing: 3px;
+    }
+
+    .fantasy-header__subtitle {
+        font-size: 17px;
+        letter-spacing: 3px;
+    }
+
+    .loader img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 350px) {
+    .fantasy-header {
+		margin-top: 75px;
+        height: 100px;
+        font-size: 15px;
+    }
+
+    .fantasy-header__title {
+        padding-top: 25px;
+    }
+
+    .fantasy-header__subtitle {
+        font-size: 12px;
+    }
+	
+}

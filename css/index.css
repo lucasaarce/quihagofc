@@ -1,0 +1,370 @@
+.match-preview {
+	color: #fff;
+	font-family: "Bebas Neue", sans-serif;
+	text-align: center;
+	margin: 0;
+	margin-top: 94px;
+	letter-spacing: 1px;
+	height: 450px;
+	width: 100%;
+	background-image: url(../assets/images/otros/equipo-partido.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.85);
+	background-blend-mode: multiply;
+	margin-bottom: 8px;
+}
+
+.match-preview__info {
+	padding-top: 100px;
+	font-size: 25px;
+	color: #b0b0b0;
+	padding-bottom: 15px;
+}
+
+.match-preview__date {
+	font-size: 40px;
+	font-weight: bold;
+	color: #f5b915;
+	padding-bottom: 15px;
+	padding-right: 60px;
+}
+
+.match-preview__teams {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.match-preview__logo {
+	height: 100px;
+	width: auto;
+}
+
+.match-preview__time {
+	font-size: 40px;
+	color: white;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.match-preview__highlight {
+	font-weight: lighter;
+	color: #f5b915;
+	font-size: 20px;
+}
+
+@media (max-width: 1100px) {
+	.match-preview {
+		height: auto;
+		margin-top: 50px;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.match-preview__info {
+		font-size: 18px;
+		padding-right: 20px;
+		padding-top: 50px;
+	}
+
+	.match-preview__date {
+		font-size: 30px;
+		font-weight: bold;
+		color: #f5b915;
+	}
+
+	.match-preview__teams {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		font-size: 30px;
+		font-weight: bold;
+		margin-top: 10px;
+		padding-bottom: 20px;
+	}
+
+	.match-preview__time-wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.match-preview__logo {
+		height: 60px;
+		width: auto;
+	}
+
+	.match-preview__time {
+		font-size: 30px;
+		color: white;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.match-preview__highlight {
+		font-weight: lighter;
+		color: #f5b915;
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 700px) {
+	.match-preview__info {
+		font-size: 12px;
+		padding-top: 50px;
+	}
+
+	.match-preview__date {
+		font-size: 20px;
+		font-weight: bold;
+		color: #f5b915;
+		padding-right: 20px;
+	}
+
+	.match-preview__teams {
+		display: flex;
+		align-items: center;
+		gap: 15px;
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: 10px;
+		padding-bottom: 20px;
+	}
+
+	.match-preview__time-wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.match-preview__logo {
+		height: 40px;
+		width: auto;
+	}
+
+	.match-preview__time {
+		font-size: 20px;
+		color: white;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.match-preview__highlight {
+		font-weight: lighter;
+		color: #f5b915;
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 480px) {
+	.match-preview__teams {
+		font-size: 12px;
+	}
+
+	.match-preview__date {
+		font-size: 18px;
+		padding-bottom: 0px;
+	}
+
+	.match-preview__logo {
+		height: 30px;
+		width: auto;
+	}
+
+	.match-preview__date {
+		font-size: 15px;
+		font-weight: bold;
+		color: #f5b915;
+	}
+
+	.match-preview__time-wrapper {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.match-preview__time {
+		font-size: 15px;
+		color: white;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+/*#############################################*/
+
+.titles-container {
+	font-family: "Bebas Neue", sans-serif;
+	color: #dedede;
+	height: 200px;
+	margin-left: 30px;
+	margin-right: 30px;
+	width: calc(100% - 60px);
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	background-color: #080017;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+	margin-bottom: 50px;
+}
+
+.titles-container__box {
+	display: flex;
+	align-items: center;
+	height: 150px;
+	width: auto;
+	max-width: 100%;
+	padding: 10px;
+	margin-left: 30px;
+	margin-right: auto;
+	background-image: url(../assets/images/otros/chavarria.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.7);
+	background-blend-mode: multiply;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+	flex-wrap: nowrap;
+}
+
+.titles-container__logo {
+	height: 80px;
+	width: auto;
+	max-width: 100%;
+	object-fit: contain;
+	flex-shrink: 1;
+}
+
+.titles-container__number {
+	padding-right: 20px;
+	font-size: 70px;
+	font-weight: bolder;
+	color: #f5b915;
+}
+
+.titles-container__league {
+	padding-right: 20px;
+	font-size: 25px;
+	margin-left: 40px;
+	font-style: italic;
+}
+
+.titles-container__label {
+	padding-right: 20px;
+	font-size: 25px;
+}
+
+@media (max-width: 1000px) {
+	.titles-container {
+		margin: 20px;
+		flex-direction: column;
+		padding: 10px;
+		height: 100px;
+	}
+
+	.titles-container__box {
+		margin-left: 10px;
+		height: 75px;
+		width: auto;
+		max-width: 100%;
+		justify-content: space-between;
+		padding: 10px;
+	}
+
+	.titles-container__league,
+	.titles-container__label {
+		font-size: 16px;
+		padding: 5px;
+		margin: 0;
+	}
+
+	.titles-container__number {
+		font-size: 40px;
+		padding: 5px;
+	}
+
+	.titles-container__logo {
+		height: 50px;
+	}
+}
+
+/*#############################################*/
+
+.team-photos {
+	border-radius: 15px;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 100px;
+	margin-left: 30px;
+	margin-right: 30px;
+	width: calc(100% - 60px);
+	height: 900px;
+	overflow: hidden;
+}
+
+.team-photos__photo {
+	flex-grow: 1;
+	flex-basis: 0;
+	background-size: cover;
+	background-position: center;
+	transition: flex-grow 0.5s ease;
+	position: relative;
+	cursor: pointer;
+	will-change: flex-grow, filter;
+	transform: translateZ(0);
+}
+
+.team-photos__text {
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	color: white;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-shadow: 1px 1px 5px black;
+	pointer-events: none;
+}
+
+/* Efecto hover solo en ancho */
+.team-photos:hover .team-photos__photo {
+	flex-grow: 1;
+	filter: brightness(0.7);
+}
+
+.team-photos .team-photos__photo:hover {
+	flex-grow: 3; /* Solo se expande lateralmente */
+	filter: brightness(1);
+}
+
+@media (max-width: 768px) {
+	.team-photos {
+		flex-direction: column;
+		height: auto;
+		margin: 20px;
+		width: auto;
+	}
+
+	.team-photos__photo {
+		height: 200px;
+		flex-grow: 0;
+		flex-basis: auto;
+	}
+
+	.team-photos__text {
+		font-size: 1.2rem;
+		bottom: 10px;
+		left: 10px;
+	}
+
+	/* Desactiva efectos hover en móvil */
+	.team-photos:hover .team-photos__photo,
+	.team-photos .team-photos__photo:hover {
+		flex-grow: 0;
+		filter: none;
+	}
+}

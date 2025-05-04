@@ -1,0 +1,52 @@
+<header class="navbar">
+    <button class="navbar__menu-button" id="menuBtn" onclick="toggleMenu()">&#9776;</button>
+    <nav class="navbar__side-menu" id="menu-lat">
+        <a href="index.html" id="link-index" class="navbar__side-menu-link">Inicio</a>
+        <a href="equipo.html" id="link-equipo-m" class="navbar__side-menu-link">Equipo</a>
+        <a href="calendario.html" id="link-calendario-m" class="navbar__side-menu-link">Calendario</a>
+        <a href="resultados.html" id="link-resultados-m" class="navbar__side-menu-link">Resultados</a>
+        <a href="fantasy.html" id="link-fantasy" class="navbar__side-menu-link">Fantasy</a>
+        <a href="galeria.html" id="link-galeria-m" class="navbar__side-menu-link">Galería</a>
+        <a href="redes.html" id="link-redes" class="navbar__side-menu-link">Redes Sociales</a>
+    </nav>
+    <div class="navbar__overlay" id="overlay" onclick="toggleMenu()"></div>        
+    <div class="navbar__logo">
+        <img src="../assets/images/escudo/escudo_amarillo.png" alt="escudo">
+    </div>
+    <div class="navbar__separator">
+        <p>&#9474;</p>
+    </div>
+    <section class="navbar__sponsors">
+        <a href="https://www.fundaciovalldor7.com" target="_blank" class="navbar__sponsor-link">
+            <img src="../assets/images/logos/valldor.png" alt="valldor">
+        </a>
+    </section>
+    <ul class="navbar__menu">
+        <li class="navbar__menu-item"><a href="equipo.html" id="link-equipo" class="navbar__menu-link">Equipo</a></li>
+        <li class="navbar__menu-item"><a href="calendario.html" id="link-calendario" class="navbar__menu-link">Calendario</a></li>
+        <li class="navbar__menu-item"><a href="resultados.html" id="link-resultados" class="navbar__menu-link">Resultados</a></li>
+        <li class="navbar__menu-item"><a href="galeria.html" id="link-galeria" class="navbar__menu-link">Galería</a></li>
+    </ul>
+    <section class="navbar__sponsors">
+        <a href="https://www.joma-sport.com" target="_blank" class="navbar__sponsor-link">
+            <img src="../assets/images/logos/joma.png" alt="joma">
+        </a>
+    </section>
+    <section class="navbar__sponsors">
+        <a href="https://www.estampatulogo.com" target="_blank" class="navbar__sponsor-link">
+            <img src="../assets/images/logos/estampa_tu_logo_blanco.png" alt="estampa_tu_logo">
+        </a>
+    </section>
+    <div class="navbar__separator">
+        <p>&#9474;</p>
+    </div>
+    <div class="selector-idiomas">
+        <select class=custom-select id="idioma">
+            <option disabled selected id="idioma_selector">Elige el idioma</option>
+            <option value="es">Español</option>
+            <option value="ca">Català</option>
+            <option value="en">English</option>
+        </select>
+    </div>
+</header>
+

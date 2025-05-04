@@ -1,0 +1,155 @@
+{
+	"es": {
+        "principal_title_1": "Quihago FC | Web Oficial",
+        "equipo_title_1": "Quihago FC | Equipo",
+        "calendario_title_1": "Quihago FC | Calendario",
+        "resultados_title_1": "Quihago FC | Resultados",
+        "galeria_title_1": "Quihago FC | Galería",
+        "fantasy_title_1": "Quihago FC | Fantasy",
+        "redes_title_1": "Quihago FC | ¡Síguenos!",
+
+        "link-principal": "Inicio",
+		"link-equipo": "Equipo",
+        "link-calendario": "Calendario",
+        "link-resultados": "Resultados",
+        "link-galeria": "Galería",
+        "link-fantasy": "Fantasy",
+        "link-redes": "Redes Sociales",
+
+        "link-equipo-m": "Equipo",
+        "link-calendario-m": "Calendario",
+        "link-resultados-m": "Resultados",
+        "link-galeria-m": "Galería",
+
+        "link-principal-f": "Inicio",
+        "link-equipo-f": "Equipo",
+        "link-calendario-f": "Calendario",
+        "link-resultados-f": "Resultados",
+        "link-galeria-f": "Galería",
+        "link-fantasy-f": "Fantasy",
+        "link-redes-f": "Redes Sociales",
+
+        "match-preview__venue": "Jornada 9 • Centro Deportivo Valentí Chavarría",
+        "match-preview__date": "VIE 9 MAY",
+        "match-preview__highlight": "Inicio del partido CET",
+        "titles-container__label": "TÍTULOS",
+
+        "equipo_title": "Plantilla 24-25",
+        "portero_title": "Portero",
+        "defensas_title": "Defensas",
+        "centrocampistas_title": "Centrocampistas",
+        "delanteros_title": "Delanteros",
+        "cuerpo_title": "Cuerpo Técnico",
+
+        "calendario-title": "Calendario · Split 2",
+
+        "resultados_title": "Resultados y Clasificación",
+        "clasificacion_title": "Clasificación · Split 2",
+        "partidos_title": "Partidos",
+
+        "fantasy_subtitle": "Estadísticas Split 2",
+        "redes_title": "¡Síguenos!"
+	},
+	"ca": {
+        "principal_title_1": "Quihago FC | Web Oficial",
+        "equipo_title_1": "Quihago FC | Equip",
+        "calendario_title_1": "Quihago FC | Calendari",
+        "resultados_title_1": "Quihago FC | Resultats",
+        "galeria_title_1": "Quihago FC | Galeria",
+        "fantasy_title_1": "Quihago FC | Fantasy",
+        "redes_title_1": "Quihago FC | Segueix-nos!",
+
+        "link-principal": "Inici",
+		"link-equipo": "Equip",
+        "link-calendario": "Calendari",
+        "link-resultados": "Resultats",
+        "link-galeria": "Galeria",
+        "link-fantasy": "Fantasy",
+        "link-redes": "Xarxes Socials",
+
+        "link-equipo-m": "Equip",
+        "link-calendario-m": "Calendari",
+        "link-resultados-m": "Resultats",
+        "link-galeria-m": "Galeria",
+
+        "link-principal-f": "Inici",
+        "link-equipo-f": "Equip",
+        "link-calendario-f": "Calendari",
+        "link-resultados-f": "Resultats",
+        "link-galeria-f": "Galeria",
+        "link-fantasy-f": "Fantasy",
+        "link-redes-f": "Xarxes Socials",
+
+        "match-preview__venue": "Jornada 9 • Centre Esportiu Valentí Chavarría",
+        "match-preview__date": "DIV 9 MAI",
+        "match-preview__highlight": "Inici del partit CET",
+        "titles-container__label": "TÍTOLS",
+
+        "equipo_title": "Plantilla 24-25",
+        "portero_title": "Porter",
+        "defensas_title": "Defenses",
+        "centrocampistas_title": "Centrecampistes",
+        "delanteros_title": "Davanters",
+        "cuerpo_title": "Cos Tècnic",
+
+        "calendario-title": "Calendari · Split 2",
+
+        "resultados_title": "Resultats i Classificació",
+        "clasificacion_title": "Classificació · Split 2",
+        "partidos_title": "Partits",
+
+        "fantasy_subtitle": "Estadístiques Split 2",
+        "redes_title": "Segueix-nos!"
+	},
+	"en": {
+        "principal_title_1": "Quihago FC | Official Website",
+        "equipo_title_1": "Quihago FC | Team",
+        "calendario_title_1": "Quihago FC | Schedule",
+        "resultados_title_1": "Quihago FC | Results",
+        "galeria_title_1": "Quihago FC | Gallery",
+        "fantasy_title_1": "Quihago FC | Fantasy",
+        "redes_title_1": "Quihago FC | Follow Us!",
+
+        "link-principal": "Home",
+		"link-equipo": "Team",
+        "link-calendario": "Schedule",
+        "link-resultados": "Results",
+        "link-galeria": "Gallery",
+        "link-fantasy": "Fantasy",
+        "link-redes": "Social Media",
+
+        "link-equipo-m": "Team",
+        "link-calendario-m": "Schedule",
+        "link-resultados-m": "Results",
+        "link-galeria-m": "Gallery",
+
+        "link-principal-f": "Home",
+        "link-equipo-f": "Team",
+        "link-calendario-f": "Schedule",
+        "link-resultados-f": "Results",
+        "link-galeria-f": "Gallery",
+        "link-fantasy-f": "Fantasy",
+        "link-redes-f": "Social Media",
+
+        "match-preview__venue": "Matchday 9 • Valentí Chavarría Sports Center",
+        "match-preview__date": "FRI 9 MAY",
+        "match-preview__highlight": "Kickoff CET",
+        "titles-container__label": "TITLES",
+
+        "equipo_title": "Squad 24-25",
+        "portero_title": "Goalkeeper",
+        "defensas_title": "Defenders",
+        "centrocampistas_title": "Midfielders",
+        "delanteros_title": "Forwards",
+        "cuerpo_title": "Coaching Staff",
+
+        "calendario-title": "Schedule · Split 2",
+
+        "resultados_title": "Results and Standings",
+        "clasificacion_title": "Standings · Split 2",
+        "partidos_title": "Matches",
+
+        "fantasy_subtitle": "Statistics Split 2",
+        "redes_title": "Follow Us!"
+	}
+}

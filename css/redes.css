@@ -1,0 +1,110 @@
+
+.social-section {
+	color: #fff;
+	font-family: "Bebas Neue", sans-serif;
+	margin-top: 94px;
+	letter-spacing: 1px;
+	height: 875px;
+	width: 100%;
+	text-align: center;
+	background-image: url(../assets/images/otros/equipo-partido.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.85);
+	background-blend-mode: multiply;
+}
+
+.social-section__title {
+	padding-top: 60px;
+	font-size: 200px;
+	font-style: italic;
+}
+
+.social-section__networks {
+	display: flex;
+	justify-content: center;
+	gap: 150px;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.social-section__network--instagram img {
+	padding-top: 100px;
+	height: 150px;
+}
+
+.social-section__network--tiktok img {
+	padding-top: 65px;
+	height: 225px;
+}
+
+.social-section__network--instagram .social-section__handle {
+	padding-top: 37px;
+	font-size: 35px;
+}
+
+.social-section__network--tiktok .social-section__handle {
+	font-size: 35px;
+}
+
+@media (max-width: 1024px) {
+	.social-section {
+		margin-top: 74px;
+	}
+	.social-section__title {
+		font-size: 150px;
+	}
+	.social-section__networks {
+		gap: 100px;
+	}
+	.social-section__network--instagram img {
+		padding-top: 80px;
+		height: 100px;
+	}
+
+	.social-section__network--tiktok img {
+		padding-top: 65px;
+		height: 150px;
+	}
+}
+
+@media (max-width: 768px) {
+	.social-section {
+		height: auto;
+		padding-bottom: 60px;
+	}
+
+	.social-section__title {
+		font-size: 90px;
+	}
+
+	.social-section__networks {
+		flex-direction: column;
+		align-items: center;
+		gap: 0px;
+		margin-left: 0;
+	}
+
+	.social-section__network img {
+		height: 100px;
+	}
+
+	.social-section__handle {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 480px) {
+	.social-section__title {
+		font-size: 60px;
+	}
+
+	.social-section__network img {
+		height: 80px;
+	}
+
+	.social-section__handle {
+		font-size: 20px;
+	}
+}

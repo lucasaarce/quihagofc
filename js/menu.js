@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     function inicializarIdioma() {
-        fetch('../json/idiomas.json')
+        fetch('json/idiomas.json')
             .then(response => response.json())
             .then(data => {
                 traducciones = data;

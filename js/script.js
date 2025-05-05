@@ -51,16 +51,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 const images = [
-    "../assets/images/equipo/equipo0.jpg",
-    "../assets/images/equipo/equipo1.jpg",
-    "../assets/images/equipo/equipo2.jpg",
-    "../assets/images/equipo/equipo3.jpg",
-    "../assets/images/equipo/equipo4.jpg",
-    "../assets/images/equipo/equipo5.jpg",
-    "../assets/images/equipo/equipo6.jpg",
-    "../assets/images/equipo/equipo7.jpg",
-    "../assets/images/equipo/equipo8.jpg",
-    "../assets/images/equipo/equipo9.jpg",
+    "assets/images/equipo/equipo0.jpg",
+    "assets/images/equipo/equipo1.jpg",
+    "assets/images/equipo/equipo2.jpg",
+    "assets/images/equipo/equipo3.jpg",
+    "assets/images/equipo/equipo4.jpg",
+    "assets/images/equipo/equipo5.jpg",
+    "assets/images/equipo/equipo6.jpg",
+    "assets/images/equipo/equipo7.jpg",
+    "assets/images/equipo/equipo8.jpg",
+    "assets/images/equipo/equipo9.jpg",
 ];
 
 let currentIndex = 0;

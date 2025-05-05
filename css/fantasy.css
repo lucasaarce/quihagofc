@@ -263,19 +263,20 @@ body {
     }
 
     .card__table {
-        font-size: 1.5rem;
+        font-size: 25px;
     }
 
     .card__table th {
-        font-size: 1.2rem;
+        font-size: 25px;
     }
 
     .card__table td.ranking {
-        font-size: 1.2rem;
+        font-size: 25px;
     }
 }
 
 @media (max-width: 748px) {
+
     .fantasy-header {
         height: 200px;
         font-size: 35px;
@@ -316,6 +317,10 @@ body {
 }
 
 @media (max-width: 600px) {
+	.card {
+        width: 70%;
+    }
+
     .fantasy-header {
 		margin-top: 75px;
         height: 100px;
@@ -332,6 +337,17 @@ body {
         letter-spacing: 3px;
     }
 
+	.card__table {
+        font-size: 15px;
+    }
+
+    .card__table th {
+        font-size: 15px;
+    }
+
+    .card__table td.ranking {
+        font-size: 15px;
+    }
     .loader img {
         width: 50px;
         height: 50px;

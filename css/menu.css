@@ -159,11 +159,21 @@
 	box-shadow: 0 0 0 3px rgba(68, 105, 173, 0.2);
 }
 
+@media (max-width: 1200px) {
+	.navbar__separator,
+	.navbar__sponsors{
+		display: none;
+	}
+}
 
 @media (max-width: 980px) {
-	.navbar__menu,
-	.selector-idiomas {
+	.navbar__menu {
 		display: none;
+	}
+
+	.selector-idiomas{
+		width: 80%;
+		text-align: end;
 	}
 
 	.navbar__logo img {
@@ -188,9 +198,4 @@
 	}
 }
 
-@media (max-width: 1200px) {
-	.navbar__separator,
-	.selector-idiomas{
-		display: none;
-	}
-}
+

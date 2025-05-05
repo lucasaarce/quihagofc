@@ -168,3 +168,10 @@
         display: none !important;
     }
 }
+
+@media (max-width: 478px){
+    .results__header {
+        font-size: 7px;
+    }
+    
+}

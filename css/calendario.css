@@ -148,12 +148,12 @@
 
     .results__header {
         padding: 8px 12px;
-        font-size: 10px;
+        font-size: 7px;
     }
     
     .results__status.text-muted {
         color: #9e9e9e; 
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .results__status {
@@ -167,11 +167,4 @@
     .d-none.d-md-inline {
         display: none !important;
     }
-}
-
-@media (max-width: 600px){
-    .results__header {
-        font-size: 7px;
-    }
-    
 }

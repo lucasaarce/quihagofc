@@ -169,7 +169,7 @@
     }
 }
 
-@media (max-width: 478px){
+@media (max-width: 600px){
     .results__header {
         font-size: 7px;
     }

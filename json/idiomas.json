@@ -8,7 +8,7 @@
         "fantasy_title_1": "Quihago FC | Fantasy",
         "redes_title_1": "Quihago FC | ¡Síguenos!",
 
-        "link-principal": "Inicio",
+        "link-index": "Inicio",
 		"link-equipo": "Equipo",
         "link-calendario": "Calendario",
         "link-resultados": "Resultados",
@@ -59,7 +59,7 @@
         "fantasy_title_1": "Quihago FC | Fantasy",
         "redes_title_1": "Quihago FC | Segueix-nos!",
 
-        "link-principal": "Inici",
+        "link-index": "Inici",
 		"link-equipo": "Equip",
         "link-calendario": "Calendari",
         "link-resultados": "Resultats",
@@ -110,7 +110,7 @@
         "fantasy_title_1": "Quihago FC | Fantasy",
         "redes_title_1": "Quihago FC | Follow Us!",
 
-        "link-principal": "Home",
+        "link-index": "Home",
 		"link-equipo": "Team",
         "link-calendario": "Schedule",
         "link-resultados": "Results",
